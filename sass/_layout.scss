@@ -1,0 +1,98 @@
+// _layout.scss
+
+$accent-color: #66CCCC;
+$main-color: #2F2F2F; 
+
+#main-header {
+	@include clearfix;
+}
+
+body { 
+	padding-top: 80px; 
+	position: relative;
+}
+
+.navbar-brand {
+	margin-top: -16px;
+}
+
+.navbar {
+	background-color: $main-color;
+	min-height:32px !important;
+}
+
+
+#myNavbar {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	float: right;
+}
+
+.container {
+	position: relative;
+}
+
+.main-content {
+
+}
+
+#about, #portfolio, #contact {
+	margin-top: 5em;
+	text-align: center;
+}
+
+
+
+#skill-list {
+	text-align: center;
+
+}
+
+#skill-list ul {
+    @include horizontal-list(15px);
+	display: inline-block;
+	margin-top: -15px;
+	line-height: 5em;
+
+}
+
+
+.gallery {
+	padding: 30px 0px;
+	text-align: center;
+	float: none;
+	margin: 0 auto;
+    padding: 3em;
+    margin-bottom: 2em;
+}
+
+.row-bottom-margin { 
+	margin-bottom:10%; 
+}
+
+
+.gallery img {
+	padding: 0;
+    font-size: .85em;
+    text-align: center;
+    margin: 2% 2% 30px 2%;
+    max-height: 200px;
+    max-width: 100%;
+}
+
+// to center social media icons 
+#footer {
+	text-align: center;
+}
+
+
+.social {
+	@include horizontal-list(5px);
+	display: inline-block;
+}
+
+
+.copyright {
+	padding-top: 10px;
+	padding-bottom: 30px;
+}

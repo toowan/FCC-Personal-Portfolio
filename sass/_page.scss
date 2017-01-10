@@ -1,0 +1,20 @@
+// PAGE STYLES
+$accent-color: #66CCCC;
+$main-color: #2F2F2F; 
+
+
+* {
+	@include box-sizing(border-box);
+}
+
+
+html, body {
+	background-color: white;
+	height: 100%;
+}
+
+.img-circle {
+	border: 1px solid #CCC;
+}
+
+

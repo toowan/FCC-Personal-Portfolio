@@ -1,0 +1,96 @@
+// TYPOGRAPHY
+$accent-color: #66CCCC;
+$main-color: #2F2F2F;
+$main-text-color: #757575; 
+$base-font-size: 16px; 
+$base-line-height: 24px;
+
+
+html, body {
+	color: $main-text-color;
+	font-family: serif;
+}
+
+a {
+	color: $main-color;
+}
+
+a:hover {
+	color: $accent-color;
+}
+
+
+#myNavbar {
+	a {
+		font-weight: bold; 
+		color: white;
+		font-size: 1.2em;
+		text-transform: uppercase;
+		letter-spacing: 1px;
+	}
+
+	a:hover {
+		background-color: white;
+	}
+
+
+	a:visited {
+		background-color: $accent-color;
+	}
+}
+
+
+
+h1 {
+	font-family: serif;
+	font-size: 3em;
+	color: $accent-color;
+	text-transform: uppercase;
+	letter-spacing: .3em;
+}
+
+h2 {
+	font-family: serif;
+	font-size: 2em;
+	color: $main-text-color;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+}
+
+
+h3 {
+	letter-spacing: 2px;
+	color: #5bb7b7;
+	@include adjust-font-size-to(18px);
+	margin-bottom: rhythm(1, 21px);
+	font-family: Georgia, serif;
+	text-transform: uppercase;
+	padding-top: .8em;
+	font-weight: 500;
+}
+
+#skill-list ul {
+	color: $accent-color;
+	font-size: 1.4em;
+}
+
+
+#about p, .gallery {
+	font-size: 1.3em;
+	line-height: 1.5em;
+}
+
+.gallery p {
+	font-size: .8em;
+	margin-top: -10px;
+}
+
+
+.copyright {
+	font-size: .8em;
+	text-align: center;
+	font-family: serif;
+	font-size: .8em;
+	color: #888;
+	text-transform:uppercase;
+}
